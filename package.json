@@ -1,6 +1,6 @@
 {
   "name": "crazy-buttons-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Crazy buttons plugin",
   "main": "./src/index.js",
   "scripts": {
