@@ -19,9 +19,12 @@ export default {
 
 					// Because we are removing this button, we need to remove it from
 					// `clickedButtons` array.
-
+					button.style.transition = '0.4s';
+					button.style.opacity = 0;
 					clickedButtons.splice(0, clickedButtons.indexOf(button.getAttribute('custom-crazy-button-id')));
-					button.remove();
+					setTimeout(() => {
+						button.remove();
+					}, 500);
 				},
 				function(button) {
 					console.log('Executing addNewButton');
