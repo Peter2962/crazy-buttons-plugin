@@ -9,7 +9,14 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:Peter2962/crazy-buttons-plugin.git"
-  },  
+  },
   "author": "Peter Taiwo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "random-int": "^3.0.0",
+    "random-item": "^4.0.1",
+    "random-obj-key": "^2.0.1",
+    "sweetalert2": "^11.0.18"
+  }
 }
