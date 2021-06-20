@@ -1,0 +1,15 @@
+{
+  "name": "crazy-buttons-js",
+  "version": "1.0.0",
+  "description": "Crazy buttons plugin",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Peter2962/crazy-buttons-plugin.git"
+  },  
+  "author": "Peter Taiwo",
+  "license": "ISC"
+}
